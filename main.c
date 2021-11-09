@@ -32,7 +32,7 @@ int main(){
         if (isPrime(i))
             printf(" %d", i);
     }
-    printf("\nThe Strong numbers are::");
+    printf("\nThe Strong numbers are:");
     for (int i=low; i <= high; i ++){
         if (isStrong(i))
             printf(" %d", i);
