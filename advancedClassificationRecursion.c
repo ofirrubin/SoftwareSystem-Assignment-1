@@ -19,7 +19,7 @@ int isArmstrong(int n){ // Returns 1 if a number is armstrong number, 0 otherwis
 
 int isPalindromeHinted(int n, int placement){
     int digit = (int)(n / placement);
-    if (n <= 0) return 0;
+    if (n <= 0) return 1;
     return (digit % 10 == (int)(n%10)) && isPalindromeHinted( (n - digit * placement) / 10, placement / 100);
 
 }
