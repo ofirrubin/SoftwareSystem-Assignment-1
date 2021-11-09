@@ -22,7 +22,7 @@ int main(){
         if (isArmstrong(i))
             printf(" %d", i);
     }
-    printf("\nThe Palindrome numbers are:");
+    printf("\nThe Palindromes are:");
     for (int i=low; i <= high; i ++){
         if (isPalindrome(i))
             printf(" %d", i);
