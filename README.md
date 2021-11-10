@@ -1,4 +1,4 @@
-# SS-Assignment-1
+# SoftwareSystem-Assignment-1
 Software Systems A - Assignment 1
 
 Note:
