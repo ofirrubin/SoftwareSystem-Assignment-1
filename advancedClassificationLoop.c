@@ -1,4 +1,4 @@
-# include "numclass.h"
+# include "NumClass.h"
 # include <math.h>
 
 int length(int n){

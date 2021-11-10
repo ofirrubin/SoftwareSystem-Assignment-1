@@ -1,5 +1,5 @@
 # include <math.h>
-# include "numclass.h"
+# include "NumClass.h"
 
 int lengthRec(int n){
     if (n < 10) return 1;

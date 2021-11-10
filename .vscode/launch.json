@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": true,
-      "cwd": "/Users/ofirrubin/Projects/c-hello-world",
+      "cwd": "/Users/ofirrubin/SynologyDrive/לימודים/שנה ב/סמסטר א/תכנות מערכות א/מטלה 1/ex1/SoftwareSystem-Assignment-1",
       "environment": [],
-      "program": "/Users/ofirrubin/Projects/c-hello-world/build/Debug/outDebug",
+      "program": "/Users/ofirrubin/SynologyDrive/לימודים/שנה ב/סמסטר א/תכנות מערכות א/מטלה 1/ex1/SoftwareSystem-Assignment-1/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "lldb",
       "externalConsole": true
