@@ -32,13 +32,13 @@ libclassloops.so: basicClassification.o advancedClassificationLoop.o # Dynamic
 	$(CC) -shared -o libclassloops.so basicClassification.o advancedClassificationLoop.o
 
 # Object compiling:
-main.o: main.c numClass.h
+main.o: main.c NumClass.h
 	$(CC) $(FLAGS) -c main.c
-basicClassification.o: basicClassification.c numClass.h
+basicClassification.o: basicClassification.c NumClass.h
 	$(CC) $(FLAGS) -c basicClassification.c
-advancedClassificationLoop.o: advancedClassificationLoop.c numClass.h
+advancedClassificationLoop.o: advancedClassificationLoop.c NumClass.h
 	$(CC) $(FLAGS) -c advancedClassificationLoop.c
-advancedClassificationRecursion.o: advancedClassificationRecursion.c numClass.h
+advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
 	$(CC) $(FLAGS) -c advancedClassificationRecursion.c
 
 .PHONY: clean all
